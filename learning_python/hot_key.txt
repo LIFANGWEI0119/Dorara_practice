@@ -1,0 +1,3 @@
+D:/programing/venv/Scripts/Activate.ps1 
+
+Run Cell:#%%
