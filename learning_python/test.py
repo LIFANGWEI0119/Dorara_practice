@@ -1,18 +1,26 @@
-#%%
-y = [4, 1, 2, 1, 2]
+# setdefault()具有取得值及增加項目的功用
+# 使用 [] 與 = 增加項目
+# x = {}
+# for i in range(0, 3):
+#     x[i] = 1
 
-def judge_apear(x, seq):
-    if not isinstance(x, int):
-        return None
-    for i in seq:
-        if x == i:
-            return True
-    return False
+# for i in range(0, len(x)):
+#     if list(x.values())[i] == 1:
+#         print(list(x.keys())[i])
 
-seq = []
+# print(x)
+my_dict = {'1':1, '2':1}
+# my_dict[2] = my_dict.get(2, 0) + 1
 
-for i in y:
-    if not judge_apear(i, seq):
-        seq.append(i)
+# slicing = [0, 1]
+# index = 2
 
-print(seq)
+# print(slicing[len(slicing) - 1])
+
+# a = [(1, 2), (3, 4)]
+# a.append((5, 6))
+a = []
+a = ["("]+[")"]
+
+
+print(a)
